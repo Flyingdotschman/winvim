@@ -1,0 +1,17 @@
+{
+  "extras": [
+    "lazyvim.plugins.extras.coding.codeium",
+    "lazyvim.plugins.extras.coding.yanky",
+    "lazyvim.plugins.extras.dap.core",
+    "lazyvim.plugins.extras.editor.harpoon2",
+    "lazyvim.plugins.extras.editor.leap",
+    "lazyvim.plugins.extras.editor.mini-files",
+    "lazyvim.plugins.extras.editor.outline",
+    "lazyvim.plugins.extras.lang.python",
+    "lazyvim.plugins.extras.linting.eslint"
+  ],
+  "news": {
+    "NEWS.md": "3415"
+  },
+  "version": 3
+}
