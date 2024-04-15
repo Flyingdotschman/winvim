@@ -36,9 +36,6 @@ return {
   opts = {
     servers = {
       pyright = {
-        enabled = lsp == "pyright",
-        root_dir = root_dir_pattern,
-        print(root_dir),
         autoformat = false,
         disableOrganizeImports = true,
         analysis = {
@@ -53,9 +50,9 @@ return {
         pyright = {
           root_dir = root_dir_pattern,
           capabilities = capabilities,
+          print(root_dir_pattern),
         },
       },
     },
   },
 }
-
