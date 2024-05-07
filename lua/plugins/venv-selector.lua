@@ -4,5 +4,6 @@ return {
     -- Your options go here
     -- name = "venv",
     venvwrapper_path = "C:\\Users\\dopoeschel\\Envs", -- auto_refresh = false
+    dap_enabbled = true,
   },
 }

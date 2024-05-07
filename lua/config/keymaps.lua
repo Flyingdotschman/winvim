@@ -22,5 +22,5 @@ vim.api.nvim_set_keymap(
 vim.api.nvim_set_keymap("n", "<S-F7>", "<cmd>CompilerToggleResults<cr>", { noremap = true, silent = true })
 
 vim.keymap.set("n", "vb", "<C-v>")
-
-vim.keymap.set("n", "<F3>", "<cmd>%s/s+$//e<cr>")
+vim.keymap.set("n", "<C-u>", "<C-u>zz")
+vim.keymap.set("n", "<C-d>", "<C-d>zz")
